@@ -1,0 +1,52 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2px;
+  row-gap: 2px;
+}
+.card {
+  background-color: #333;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  font-size: x-large;
+}
+.card span {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.color-0 {
+  background-color: rgb(0, 58, 58);
+}
+.color-1 {
+  background-color: rgb(69, 43, 1);
+}
+.color-2 {
+  background-color: rgb(1, 36, 69);
+}
+.color-3 {
+  background-color: rgb(38, 1, 69);
+}
+.color-4 {
+  background-color: rgb(68, 1, 69);
+}
+.color-5 {
+  background-color: rgb(61, 69, 1);
+}
+.message {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 20px;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
